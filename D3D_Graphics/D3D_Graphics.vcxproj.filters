@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="..\Resource\BallPBR.hlsl" />
+    <FxCompile Include="..\Resource\DefferedShader.hlsl" />
+    <FxCompile Include="..\Resource\OpaquePBR.hlsl" />
+    <FxCompile Include="..\Resource\PixelShader.hlsl" />
+    <FxCompile Include="..\Resource\PS_Box.hlsl" />
+    <FxCompile Include="..\Resource\PS_Environment.hlsl" />
+    <FxCompile Include="..\Resource\PS_Leaf.hlsl" />
+    <FxCompile Include="..\Resource\PS_NoMetalEmissive.hlsl" />
+    <FxCompile Include="..\Resource\PS_NoMetalic.hlsl" />
+    <FxCompile Include="..\Resource\PS_NoMetalNoOpacityEmissive.hlsl" />
+    <FxCompile Include="..\Resource\PS_NoMetalOpacity.hlsl" />
+    <FxCompile Include="..\Resource\PS_OpacityEmissive.hlsl" />
+    <FxCompile Include="..\Resource\PS_OpaqueEmissive.hlsl" />
+    <FxCompile Include="..\Resource\PS_Outline.hlsl" />
+    <FxCompile Include="..\Resource\PS_Screen.hlsl" />
+    <FxCompile Include="..\Resource\ShadowDepthPS.hlsl" />
+    <FxCompile Include="..\Resource\ShadowVertexShader.hlsl" />
+    <FxCompile Include="..\Resource\VertexShader.hlsl" />
+    <FxCompile Include="..\Resource\VS_Box.hlsl" />
+    <FxCompile Include="..\Resource\VS_Environment.hlsl" />
+    <FxCompile Include="..\Resource\VS_Outline.hlsl" />
+    <FxCompile Include="..\Resource\VS_Screen.hlsl" />
+    <FxCompile Include="..\Resource\PS_OnlyAlbedo.hlsl" />
+    <FxCompile Include="..\Resource\PS_BaseEmissive.hlsl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D3D_Graphics.cpp" />
+    <ClCompile Include="DebugDraw.cpp" />
+    <ClCompile Include="Environment.cpp" />
+    <ClCompile Include="Helper.cpp" />
+    <ClCompile Include="InputLayout.cpp" />
+    <ClCompile Include="Material.cpp" />
+    <ClCompile Include="RenderTextureClass.cpp" />
+    <ClCompile Include="PointLight.cpp" />
+    <ClCompile Include="StaticMeshInstance.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="pch.cpp" />
+    <ClCompile Include="PixelShader.cpp" />
+    <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="SkeletalMeshResource.cpp" />
+    <ClCompile Include="StaticMeshResource.cpp" />
+    <ClCompile Include="StaticModel.cpp" />
+    <ClCompile Include="VertexShader.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D3D_Graphics.h" />
+    <ClInclude Include="DebugDraw.h" />
+    <ClInclude Include="Environment.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="Helper.h" />
+    <ClInclude Include="InputLayout.h" />
+    <ClInclude Include="Material.h" />
+    <ClInclude Include="RenderTextureClass.h" />
+    <ClInclude Include="PointLight.h" />
+    <ClInclude Include="StaticMeshInstance.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="PixelShader.h" />
+    <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="SkeletalMeshResource.h" />
+    <ClInclude Include="StaticMeshResource.h" />
+    <ClInclude Include="StaticModel.h" />
+    <ClInclude Include="VertexShader.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Resource\Header.hlsli" />
+  </ItemGroup>
+</Project>
