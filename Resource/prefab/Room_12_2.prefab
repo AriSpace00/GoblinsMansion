@@ -1,0 +1,2498 @@
+{
+    "Prefabs": [
+        {
+            "Room_12_2": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 54,
+                            "m_EntityName": "Room_12_2",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Room_12_2_Floor": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 55,
+                            "m_EntityName": "Room_12_2_Floor",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 54
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_floor_01 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 56,
+                            "m_EntityName": "room_12_floor_01 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 55
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 100.00007629394531,
+                                "m_Y": 0.0,
+                                "m_Z": 100.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999998211860657,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999998211860657
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/floor2.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_floor_02 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 57,
+                            "m_EntityName": "room_12_floor_02 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 55
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 100.0001449584961,
+                                "m_Y": 0.0,
+                                "m_Z": -100.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 180.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999998211860657,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999998211860657
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/floor2.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_floor_03 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 58,
+                            "m_EntityName": "room_12_floor_03 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 55
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -100.00012969970703,
+                                "m_Y": 0.0,
+                                "m_Z": 100.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999997615814209,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999997615814209
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/floor2.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_floor_04 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 59,
+                            "m_EntityName": "room_12_floor_04 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 55
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -100.00023651123047,
+                                "m_Y": 0.0,
+                                "m_Z": -100.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 180.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999997615814209,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999997615814209
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/floor2.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_floor_05 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 60,
+                            "m_EntityName": "room_12_floor_05 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 55
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -300.0,
+                                "m_Y": 0.0,
+                                "m_Z": 100.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999997615814209,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999997615814209
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/floor2.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_floor_06 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 61,
+                            "m_EntityName": "room_12_floor_06 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 55
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -500.0,
+                                "m_Y": 0.0,
+                                "m_Z": 100.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999997615814209,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999997615814209
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/floor2.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_floor_07 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 62,
+                            "m_EntityName": "room_12_floor_07 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 55
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -300.0,
+                                "m_Y": 0.0,
+                                "m_Z": -100.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 180.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999997615814209,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999997615814209
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/floor2.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_floor_08 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 63,
+                            "m_EntityName": "room_12_floor_08 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 55
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -500.0,
+                                "m_Y": 0.0,
+                                "m_Z": -100.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 180.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999997615814209,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999997615814209
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/floor2.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_floor_09 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 64,
+                            "m_EntityName": "room_12_floor_09 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 55
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -700.0,
+                                "m_Y": 4.934882599627599e-05,
+                                "m_Z": -100.00006103515625
+                            },
+                            "m_Rotation": {
+                                "m_X": 180.0,
+                                "m_Y": -1.3660382137459237e-05,
+                                "m_Z": 180.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999992847442627,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999992847442627
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/floor2.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_floor_10 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 65,
+                            "m_EntityName": "room_12_floor_10 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 55
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -900.0,
+                                "m_Y": 0.0001010916312225163,
+                                "m_Z": -100.00010681152344
+                            },
+                            "m_Rotation": {
+                                "m_X": 180.0,
+                                "m_Y": -1.3660382137459237e-05,
+                                "m_Z": 180.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999992847442627,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999992847442627
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/floor2.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_floor_11 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 66,
+                            "m_EntityName": "room_12_floor_11 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 55
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -1100.0,
+                                "m_Y": 0.0001392261910950765,
+                                "m_Z": -100.00011444091797
+                            },
+                            "m_Rotation": {
+                                "m_X": 180.0,
+                                "m_Y": -1.3660382137459237e-05,
+                                "m_Z": 180.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999992847442627,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999992847442627
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/floor2.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_floor_12 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 67,
+                            "m_EntityName": "room_12_floor_12 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 55
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -1300.0,
+                                "m_Y": 0.00018942820315714926,
+                                "m_Z": -100.00017547607422
+                            },
+                            "m_Rotation": {
+                                "m_X": 180.0,
+                                "m_Y": -1.3660382137459237e-05,
+                                "m_Z": 180.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999992847442627,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999992847442627
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/floor2.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_floor_13 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 68,
+                            "m_EntityName": "room_12_floor_13 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 55
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -700.0,
+                                "m_Y": 0.0,
+                                "m_Z": 100.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999997615814209,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999997615814209
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/floor2.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_floor_14 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 69,
+                            "m_EntityName": "room_12_floor_14 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 55
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -900.0,
+                                "m_Y": 0.0,
+                                "m_Z": 100.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999997615814209,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999997615814209
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/floor2.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_floor_15 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 70,
+                            "m_EntityName": "room_12_floor_15 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 55
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -1100.0,
+                                "m_Y": 0.0,
+                                "m_Z": 100.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999997615814209,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999997615814209
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/floor2.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_floor_16 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 71,
+                            "m_EntityName": "room_12_floor_16 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 55
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -1300.0,
+                                "m_Y": 0.0,
+                                "m_Z": 100.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999997615814209,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999997615814209
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/floor2.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_floor_17 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 72,
+                            "m_EntityName": "room_12_floor_17 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 55
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 100.00007629394531,
+                                "m_Y": 0.0,
+                                "m_Z": 300.0898742675781
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 90.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999998211860657,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999998211860657
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/floor2.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_floor_18 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 73,
+                            "m_EntityName": "room_12_floor_18 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 55
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 100.00007629394531,
+                                "m_Y": 0.0,
+                                "m_Z": 500.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 90.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999998211860657,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999998211860657
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/floor2.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_floor_19 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 74,
+                            "m_EntityName": "room_12_floor_19 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 55
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -100.0,
+                                "m_Y": 0.0,
+                                "m_Z": 300.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -90.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999998211860657,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999998211860657
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/floor2.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_floor_20 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 75,
+                            "m_EntityName": "room_12_floor_20 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 55
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -100.0,
+                                "m_Y": 0.0,
+                                "m_Z": 500.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -90.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999998211860657,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999998211860657
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/floor2.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Room_12_2_Wall": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 76,
+                            "m_EntityName": "Room_12_2_Wall",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 54
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_wall_01 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 77,
+                            "m_EntityName": "room_12_wall_01 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 76
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -400.0,
+                                "m_Y": -6.103515625e-05,
+                                "m_Z": 195.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/wall1.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_wall_02 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 78,
+                            "m_EntityName": "room_12_wall_02 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 76
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": -9.1552734375e-05,
+                                "m_Z": -195.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/wall1.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_wall_03 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 79,
+                            "m_EntityName": "room_12_wall_03 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 76
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -400.0,
+                                "m_Y": -6.103515625e-05,
+                                "m_Z": -195.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/wall1.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_wall_04 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 80,
+                            "m_EntityName": "room_12_wall_04 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 76
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 195.0,
+                                "m_Y": -6.103515625e-05,
+                                "m_Z": 2.740520585575723e-06
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 89.99999237060547,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999998807907104,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999998807907104
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/wall1.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_wall_05 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 81,
+                            "m_EntityName": "room_12_wall_05 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 76
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -800.0,
+                                "m_Y": -6.103515625e-05,
+                                "m_Z": -195.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/wall1.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_wall_06 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 82,
+                            "m_EntityName": "room_12_wall_06 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 76
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -1200.0,
+                                "m_Y": -6.103515625e-05,
+                                "m_Z": -195.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/wall1.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_wall_07 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 83,
+                            "m_EntityName": "room_12_wall_07 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 76
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -800.0,
+                                "m_Y": -6.103515625e-05,
+                                "m_Z": 195.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/wall1.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_wall_08 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 84,
+                            "m_EntityName": "room_12_wall_08 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 76
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -1200.0,
+                                "m_Y": -6.103515625e-05,
+                                "m_Z": 195.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/wall1.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_wall_09 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 85,
+                            "m_EntityName": "room_12_wall_09 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 76
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -195.0,
+                                "m_Y": -0.00011673069093376398,
+                                "m_Z": 400.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 90.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/wall1.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_wall_10 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 86,
+                            "m_EntityName": "room_12_wall_10 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 76
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 195.0,
+                                "m_Y": -0.00011673069093376398,
+                                "m_Z": 400.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 89.99999237060547,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999998807907104,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999998807907104
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/wall1.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Room_12_2_Corridorceiling": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 87,
+                            "m_EntityName": "Room_12_2_Corridorceiling",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 54
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_corridorceiling_01 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 88,
+                            "m_EntityName": "room_12_corridorceiling_01 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 87
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -89.99999237060547,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999998807907104,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999998807907104
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/corridorceiling_003.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_corridorceiling_02 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 89,
+                            "m_EntityName": "room_12_corridorceiling_02 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 87
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -400.0,
+                                "m_Y": 0.0,
+                                "m_Z": 2.4588103769929148e-05
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 90.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999998807907104,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999998807907104
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/corridorceiling_001.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_corridorceiling_03 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 90,
+                            "m_EntityName": "room_12_corridorceiling_03 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 87
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -800.0,
+                                "m_Y": 0.0,
+                                "m_Z": -4.779342998517677e-05
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 89.99999237060547,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999997615814209,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999997615814209
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/corridorceiling_001.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_corridorceiling_04 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 91,
+                            "m_EntityName": "room_12_corridorceiling_04 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 87
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -1200.0,
+                                "m_Y": 0.0,
+                                "m_Z": -0.0002616495476104319
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 89.99998474121094,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999997019767761,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999997019767761
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/corridorceiling_001.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_corridorceiling_05 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 92,
+                            "m_EntityName": "room_12_corridorceiling_05 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 87
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 400.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 180.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 0.9999997615814209,
+                                "m_Y": 1.0,
+                                "m_Z": 0.9999997615814209
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/corridorceiling_001.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Room_12_2_Ridgepole": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 93,
+                            "m_EntityName": "Room_12_2_Ridgepole",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 54
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_ridgepole_01 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 94,
+                            "m_EntityName": "room_12_ridgepole_01 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 93
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -1000.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 90.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/ridgepole_001.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_ridgepole_02 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 95,
+                            "m_EntityName": "room_12_ridgepole_02 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 93
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -1400.0,
+                                "m_Y": 0.0,
+                                "m_Z": -8.460826938971877e-05
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 90.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/ridgepole_001.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_ridgepole_03 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 96,
+                            "m_EntityName": "room_12_ridgepole_03 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 93
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -1000.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 90.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/ridgepole_002.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_ridgepole_04 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 97,
+                            "m_EntityName": "room_12_ridgepole_04 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 93
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -1400.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 90.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/ridgepole_002.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Room_12_2_Column": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 98,
+                            "m_EntityName": "Room_12_2_Column",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 54
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_column_01 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 99,
+                            "m_EntityName": "room_12_column_01 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 98
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -600.0,
+                                "m_Y": 7.704657036811113e-06,
+                                "m_Z": 200.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/column.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_column_02 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 100,
+                            "m_EntityName": "room_12_column_02 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 98
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -600.0,
+                                "m_Y": 7.704657036811113e-06,
+                                "m_Z": -200.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/column.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_column_03 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 101,
+                            "m_EntityName": "room_12_column_03 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 98
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -1000.0,
+                                "m_Y": 7.704657036811113e-06,
+                                "m_Z": 200.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/column.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_column_04 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 102,
+                            "m_EntityName": "room_12_column_04 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 98
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -1400.0,
+                                "m_Y": 7.704657036811113e-06,
+                                "m_Z": 200.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/column.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_column_05 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 103,
+                            "m_EntityName": "room_12_column_05 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 98
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -1000.0,
+                                "m_Y": -5.471459007821977e-05,
+                                "m_Z": -200.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/column.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_column_06 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 104,
+                            "m_EntityName": "room_12_column_06 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 98
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -1400.0,
+                                "m_Y": 4.858271495322697e-06,
+                                "m_Z": -200.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/column.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "room_12_column_07 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 105,
+                            "m_EntityName": "room_12_column_07 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 98
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -200.0,
+                                "m_Y": 7.704657036811113e-06,
+                                "m_Z": 200.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/column.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

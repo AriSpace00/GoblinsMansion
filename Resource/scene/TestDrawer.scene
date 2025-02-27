@@ -1,0 +1,875 @@
+{
+    "WorldEntities": [
+        {
+            "Player": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 1,
+                            "m_EntityName": "Player",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -0.1426318883895874,
+                                "m_Y": 160.0,
+                                "m_Z": 1.157902479171753
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "BoxCollider": [
+                        {
+                            "m_Center": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_ColliderType": 0,
+                            "m_CollisionType": 0,
+                            "m_ComponentName": "BoxCollider",
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Size": {
+                                "m_X": 50.0,
+                                "m_Y": 150.0,
+                                "m_Z": 50.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Movement": [
+                        {
+                            "m_ComponentName": "Movement",
+                            "m_CurrentMoveState": 0,
+                            "m_CurrentRotation": [
+                                0,
+                                0
+                            ],
+                            "m_DirectionVector": {
+                                "m_X": -0.0,
+                                "m_Y": -0.0,
+                                "m_Z": -1.0
+                            },
+                            "m_RightVector": {
+                                "m_X": 1.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Sensitivity": 0.10000000149011612,
+                            "m_Speed": 492.85699462890625
+                        }
+                    ]
+                },
+                {
+                    "RigidBody": [
+                        {
+                            "m_ComponentName": "RigidBody",
+                            "m_DynamicFriction": 1.0,
+                            "m_FreezeLinear": [
+                                false,
+                                false,
+                                false
+                            ],
+                            "m_FreezeRotation": [
+                                false,
+                                false,
+                                false
+                            ],
+                            "m_Mass": 50.0,
+                            "m_MaxVellocity": 100.0,
+                            "m_Restitution": 0.0,
+                            "m_StaticFriction": 1.0
+                        }
+                    ]
+                },
+                {
+                    "PlayerInformation": [
+                        {
+                            "m_ComponentName": "PlayerInformation"
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "PlayerScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "PlayerCamera": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 2,
+                            "m_EntityName": "PlayerCamera",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 1
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Camera": [
+                        {
+                            "m_ComponentName": "Camera"
+                        }
+                    ]
+                },
+                {
+                    "Movement": [
+                        {
+                            "m_ComponentName": "Movement",
+                            "m_CurrentMoveState": 0,
+                            "m_CurrentRotation": [
+                                0,
+                                0
+                            ],
+                            "m_DirectionVector": {
+                                "m_X": -0.0,
+                                "m_Y": -0.0,
+                                "m_Z": -1.0
+                            },
+                            "m_RightVector": {
+                                "m_X": 1.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Sensitivity": 0.10000000149011612,
+                            "m_Speed": 100.0
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "POVCameraScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Main Camera": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 3,
+                            "m_EntityName": "Main Camera",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 13.956398010253906,
+                                "m_Y": 117.72383117675781,
+                                "m_Z": 38.56830978393555
+                            },
+                            "m_Rotation": {
+                                "m_X": -8.900322914123535,
+                                "m_Y": 182.20223999023438,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Camera": [
+                        {
+                            "m_ComponentName": "Camera"
+                        }
+                    ]
+                },
+                {
+                    "Movement": [
+                        {
+                            "m_ComponentName": "Movement",
+                            "m_CurrentMoveState": 0,
+                            "m_CurrentRotation": [
+                                0,
+                                0
+                            ],
+                            "m_DirectionVector": {
+                                "m_X": 0.03796400502324104,
+                                "m_Y": -0.15471597015857697,
+                                "m_Z": 0.9872293472290039
+                            },
+                            "m_RightVector": {
+                                "m_X": -0.9992614388465881,
+                                "m_Y": 2.328307269205965e-10,
+                                "m_Z": 0.03842670097947121
+                            },
+                            "m_Sensitivity": 0.10000000149011612,
+                            "m_Speed": 1000.0
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "FreeCameraScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "TestRoom": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 4,
+                            "m_EntityName": "TestRoom",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Space": [
+                        {
+                            "m_ComponentName": "Space",
+                            "m_Exits": [],
+                            "m_IsPlayerExist": true,
+                            "m_SpaceIndex": 100
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Ground": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 5,
+                            "m_EntityName": "Ground",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 4
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "BoxCollider": [
+                        {
+                            "m_Center": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_ColliderType": 1,
+                            "m_CollisionType": 2,
+                            "m_ComponentName": "BoxCollider",
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Size": {
+                                "m_X": 1000.0,
+                                "m_Y": 5.0,
+                                "m_Z": 1000.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Drawer_Interactive": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 6,
+                            "m_EntityName": "Drawer_Interactive",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 4
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 12.790660858154297,
+                                "m_Y": 0.0,
+                                "m_Z": 263.2450256347656
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/library_loom_chest.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Drawer-door": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 7,
+                            "m_EntityName": "Drawer-door",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 6
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/library_loom_chest_obj.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                },
+                {
+                    "BoxCollider": [
+                        {
+                            "m_Center": {
+                                "m_X": 0.0,
+                                "m_Y": 50.0,
+                                "m_Z": 23.0
+                            },
+                            "m_ColliderType": 1,
+                            "m_CollisionType": 2,
+                            "m_ComponentName": "BoxCollider",
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Size": {
+                                "m_X": 50.0,
+                                "m_Y": 30.0,
+                                "m_Z": 50.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/e_key_image.png",
+                            "m_IsRendered": false,
+                            "m_Layer": 0.0,
+                            "m_Position": [
+                                700,
+                                650
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Interactive": [
+                        {
+                            "m_ComponentName": "Interactive",
+                            "m_DoorIndex": 0,
+                            "m_OpeningDir": 0
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "DrawerScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Door_Interactive (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 8,
+                            "m_EntityName": "Door_Interactive (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 4
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 400.2361755371094,
+                                "m_Y": 0.0,
+                                "m_Z": 245.453857421875
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/door.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Door_01 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 9,
+                            "m_EntityName": "Door_01 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 8
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -50.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.30000001192092896
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/door_move.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                },
+                {
+                    "BoxCollider": [
+                        {
+                            "m_Center": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_ColliderType": 1,
+                            "m_CollisionType": 3,
+                            "m_ComponentName": "BoxCollider",
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Size": {
+                                "m_X": 50.0,
+                                "m_Y": 120.0,
+                                "m_Z": 50.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/e_key_image.png",
+                            "m_IsRendered": false,
+                            "m_Layer": 0.0,
+                            "m_Position": [
+                                700,
+                                650
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Interactive": [
+                        {
+                            "m_ComponentName": "Interactive",
+                            "m_DoorIndex": 1,
+                            "m_OpeningDir": -1
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "DoorScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Door_02 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 10,
+                            "m_EntityName": "Door_02 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 8
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 50.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.30000001192092896
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/door_move.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                },
+                {
+                    "BoxCollider": [
+                        {
+                            "m_Center": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_ColliderType": 1,
+                            "m_CollisionType": 3,
+                            "m_ComponentName": "BoxCollider",
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Size": {
+                                "m_X": 50.0,
+                                "m_Y": 120.0,
+                                "m_Z": 50.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/e_key_image.png",
+                            "m_IsRendered": false,
+                            "m_Layer": 0.0,
+                            "m_Position": [
+                                700,
+                                650
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Interactive": [
+                        {
+                            "m_ComponentName": "Interactive",
+                            "m_DoorIndex": 1,
+                            "m_OpeningDir": 1
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "DoorScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Door_Coll_01 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 11,
+                            "m_EntityName": "Door_Coll_01 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 8
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "BoxCollider": [
+                        {
+                            "m_Center": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_ColliderType": 1,
+                            "m_CollisionType": 5,
+                            "m_ComponentName": "BoxCollider",
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Size": {
+                                "m_X": 200.0,
+                                "m_Y": 200.0,
+                                "m_Z": 5.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

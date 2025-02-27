@@ -1,0 +1,3294 @@
+{
+    "WorldEntities": [
+        {
+            "Player": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 1,
+                            "m_EntityName": "Player",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "BoxCollider": [
+                        {
+                            "m_Center": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_ColliderType": 1,
+                            "m_CollisionType": 4,
+                            "m_ComponentName": "BoxCollider",
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Size": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Movement": [
+                        {
+                            "m_ComponentName": "Movement",
+                            "m_CurrentMoveState": 0,
+                            "m_CurrentRotation": [
+                                0,
+                                0
+                            ],
+                            "m_DirectionVector": {
+                                "m_X": -0.0,
+                                "m_Y": -0.0,
+                                "m_Z": -1.0
+                            },
+                            "m_RightVector": {
+                                "m_X": 1.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Sensitivity": 0.10000000149011612,
+                            "m_Speed": 100.0
+                        }
+                    ]
+                },
+                {
+                    "RigidBody": [
+                        {
+                            "m_ComponentName": "RigidBody",
+                            "m_DynamicFriction": 1.0,
+                            "m_FreezeLinear": [
+                                false,
+                                false,
+                                false
+                            ],
+                            "m_FreezeRotation": [
+                                false,
+                                false,
+                                false
+                            ],
+                            "m_Mass": 50.0,
+                            "m_MaxVellocity": 100.0,
+                            "m_Restitution": 0.0,
+                            "m_StaticFriction": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "PlayerCamera": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 2,
+                            "m_EntityName": "PlayerCamera",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 1
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 100.0,
+                                "m_Y": 500.0,
+                                "m_Z": -3200.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 2.700000047683716,
+                                "m_Y": 179.1999969482422,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Camera": [
+                        {
+                            "m_ComponentName": "Camera"
+                        }
+                    ]
+                },
+                {
+                    "Movement": [
+                        {
+                            "m_ComponentName": "Movement",
+                            "m_CurrentMoveState": 0,
+                            "m_CurrentRotation": [
+                                0,
+                                0
+                            ],
+                            "m_DirectionVector": {
+                                "m_X": -0.013946786522865295,
+                                "m_Y": 0.04710645601153374,
+                                "m_Z": 0.9987925291061401
+                            },
+                            "m_RightVector": {
+                                "m_X": -0.9999025464057922,
+                                "m_Y": 0.0,
+                                "m_Z": -0.013962285593152046
+                            },
+                            "m_Sensitivity": 0.10000000149011612,
+                            "m_Speed": 100.0
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "IntroCameraScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Main Camera": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 3,
+                            "m_EntityName": "Main Camera",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -296.8226623535156,
+                                "m_Y": 1116.6265869140625,
+                                "m_Z": -2196.15673828125
+                            },
+                            "m_Rotation": {
+                                "m_X": -31.50020408630371,
+                                "m_Y": 528.9060668945313,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Camera": [
+                        {
+                            "m_ComponentName": "Camera"
+                        }
+                    ]
+                },
+                {
+                    "Movement": [
+                        {
+                            "m_ComponentName": "Movement",
+                            "m_CurrentMoveState": 0,
+                            "m_CurrentRotation": [
+                                0,
+                                0
+                            ],
+                            "m_DirectionVector": {
+                                "m_X": -0.16406285762786865,
+                                "m_Y": -0.5225015878677368,
+                                "m_Z": 0.8367051482200623
+                            },
+                            "m_RightVector": {
+                                "m_X": -0.9813131093978882,
+                                "m_Y": 0.0,
+                                "m_Z": -0.19241787493228912
+                            },
+                            "m_Sensitivity": 0.10000000149011612,
+                            "m_Speed": 1000.0
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "FreeCameraScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Title": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 4,
+                            "m_EntityName": "Title",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "hanok": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 5,
+                            "m_EntityName": "hanok",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 4
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "hanok_ACC": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 6,
+                            "m_EntityName": "hanok_ACC",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 5
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/hanok_ACC.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "hanok_roof": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 7,
+                            "m_EntityName": "hanok_roof",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 5
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/hanok_roof.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "hanok_wall": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 8,
+                            "m_EntityName": "hanok_wall",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 5
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/hanok_wall.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "hanok_door": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 9,
+                            "m_EntityName": "hanok_door",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 5
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 18.805803298950195,
+                                "m_Z": -476.2070007324219
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "hanok_door_R": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 10,
+                            "m_EntityName": "hanok_door_R",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 9
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 155.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/hanok_door_L.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "IntroDoorScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "hanok_door_L": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 11,
+                            "m_EntityName": "hanok_door_L",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 9
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -155.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/hanok_door_R.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "IntroDoorScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "doldam": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 12,
+                            "m_EntityName": "doldam",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 4
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -50.870208740234375,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "doldam_01": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 13,
+                            "m_EntityName": "doldam_01",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 12
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -371.0705871582031,
+                                "m_Y": 0.0,
+                                "m_Z": -1804.8580322265625
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 2.0,
+                                "m_Y": 2.0,
+                                "m_Z": 3.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/doldam.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "doldam_02": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 14,
+                            "m_EntityName": "doldam_02",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 12
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -723.018798828125,
+                                "m_Y": 0.0,
+                                "m_Z": -1804.8580322265625
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 2.0,
+                                "m_Y": 2.0,
+                                "m_Z": 3.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/doldam.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "doldam_03": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 15,
+                            "m_EntityName": "doldam_03",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 12
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 575.5357666015625,
+                                "m_Y": 0.0,
+                                "m_Z": -1804.8580322265625
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 2.0,
+                                "m_Y": 2.0,
+                                "m_Z": 3.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/doldam.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "doldam_04": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 16,
+                            "m_EntityName": "doldam_04",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 12
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 927.1722412109375,
+                                "m_Y": 0.0,
+                                "m_Z": -1804.8580322265625
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 2.0,
+                                "m_Y": 2.0,
+                                "m_Z": 3.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/doldam.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "doldam_05": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 17,
+                            "m_EntityName": "doldam_05",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 12
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 1103.667236328125,
+                                "m_Y": 0.0,
+                                "m_Z": 815.30908203125
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 2.0,
+                                "m_Y": 2.0,
+                                "m_Z": 3.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/doldam.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "doldam_06": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 18,
+                            "m_EntityName": "doldam_06",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 12
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 1431.9141845703125,
+                                "m_Y": 0.0,
+                                "m_Z": 768.3508911132813
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 16.200000762939453,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 2.0,
+                                "m_Y": 2.0,
+                                "m_Z": 3.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/doldam.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "doldam_07": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 19,
+                            "m_EntityName": "doldam_07",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 12
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 1760.3443603515625,
+                                "m_Y": 0.0,
+                                "m_Z": 659.7763671875
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 21.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 2.0,
+                                "m_Y": 2.0,
+                                "m_Z": 3.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/doldam.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "doldam_08": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 20,
+                            "m_EntityName": "doldam_08",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 12
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 2077.18603515625,
+                                "m_Y": 1.1709612607955933,
+                                "m_Z": 536.4588623046875
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 16.399999618530273,
+                                "m_Z": -3.4000000953674316
+                            },
+                            "m_Scale": {
+                                "m_X": 2.0,
+                                "m_Y": 2.0,
+                                "m_Z": 3.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/doldam.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "doldam_09": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 21,
+                            "m_EntityName": "doldam_09",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 12
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 2414.27294921875,
+                                "m_Y": 0.0,
+                                "m_Z": 408.7568664550781
+                            },
+                            "m_Rotation": {
+                                "m_X": 3.799999952316284,
+                                "m_Y": 21.000001907348633,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 2.0,
+                                "m_Y": 2.0,
+                                "m_Z": 3.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/doldam.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "doldam_10": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 22,
+                            "m_EntityName": "doldam_10",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 12
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 2722.980712890625,
+                                "m_Y": 0.0,
+                                "m_Z": 253.56549072265625
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 31.799999237060547,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 2.0,
+                                "m_Y": 2.0,
+                                "m_Z": 3.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/doldam.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "doldam_11": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 23,
+                            "m_EntityName": "doldam_11",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 12
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -1573.671875,
+                                "m_Y": -13.338661193847656,
+                                "m_Z": 647.2125854492188
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -12.199999809265137,
+                                "m_Z": -3.0999999046325684
+                            },
+                            "m_Scale": {
+                                "m_X": 2.0,
+                                "m_Y": 2.0,
+                                "m_Z": 3.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/doldam.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "doldam_12": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 24,
+                            "m_EntityName": "doldam_12",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 12
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -1888.2244873046875,
+                                "m_Y": -14.96795654296875,
+                                "m_Z": 535.966552734375
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -25.200000762939453,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 2.0,
+                                "m_Y": 2.0,
+                                "m_Z": 3.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/doldam.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "doldam_13": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 25,
+                            "m_EntityName": "doldam_13",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 12
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -2212.600830078125,
+                                "m_Y": -8.366691589355469,
+                                "m_Z": 388.1251525878906
+                            },
+                            "m_Rotation": {
+                                "m_X": -3.5999999046325684,
+                                "m_Y": -25.799999237060547,
+                                "m_Z": -4.0
+                            },
+                            "m_Scale": {
+                                "m_X": 2.0,
+                                "m_Y": 2.0,
+                                "m_Z": 3.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/doldam.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "doldam_14": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 26,
+                            "m_EntityName": "doldam_14",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 12
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -2485.864501953125,
+                                "m_Y": 0.0,
+                                "m_Z": 204.90159606933594
+                            },
+                            "m_Rotation": {
+                                "m_X": 3.4000000953674316,
+                                "m_Y": -42.900001525878906,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 2.0,
+                                "m_Y": 2.0,
+                                "m_Z": 3.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/doldam.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "doldam_15": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 27,
+                            "m_EntityName": "doldam_15",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 12
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -2725.553466796875,
+                                "m_Y": 0.0,
+                                "m_Z": -44.49081039428711
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -50.900001525878906,
+                                "m_Z": -3.0
+                            },
+                            "m_Scale": {
+                                "m_X": 2.0,
+                                "m_Y": 2.0,
+                                "m_Z": 3.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/doldam.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "doldam_01 (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 28,
+                            "m_EntityName": "doldam_01 (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 12
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -1070.36474609375,
+                                "m_Y": 0.0,
+                                "m_Z": -1804.8580322265625
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 2.0,
+                                "m_Y": 2.0,
+                                "m_Z": 3.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/doldam.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "doldam_01 (2)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 29,
+                            "m_EntityName": "doldam_01 (2)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 12
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 1271.0657958984375,
+                                "m_Y": 0.0,
+                                "m_Z": -1804.8580322265625
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 2.0,
+                                "m_Y": 2.0,
+                                "m_Z": 3.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/doldam.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Tree": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 30,
+                            "m_EntityName": "Tree",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 4
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tree_03": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 31,
+                            "m_EntityName": "tree_03",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 30
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 1785.96435546875,
+                                "m_Y": 37.83662414550781,
+                                "m_Z": 1132.4425048828125
+                            },
+                            "m_Rotation": {
+                                "m_X": -9.199999809265137,
+                                "m_Y": 15.5,
+                                "m_Z": 4.0
+                            },
+                            "m_Scale": {
+                                "m_X": 5.5,
+                                "m_Y": 5.5,
+                                "m_Z": 5.5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/Tree.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Empty Entity (2)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 32,
+                            "m_EntityName": "Empty Entity (2)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 31
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/treeleaf.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tree_01 (4)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 33,
+                            "m_EntityName": "tree_01 (4)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 30
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -1491.92041015625,
+                                "m_Y": 0.00015014460950624198,
+                                "m_Z": 3414.41015625
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 8.0,
+                                "m_Y": 8.0,
+                                "m_Z": 8.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/Tree.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tree_01 (5)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 34,
+                            "m_EntityName": "tree_01 (5)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 30
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -2340.18359375,
+                                "m_Y": 4.548521610558964e-05,
+                                "m_Z": 2508.071533203125
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 5.0,
+                                "m_Y": 5.0,
+                                "m_Z": 5.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/Tree.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tree_01 (10)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 35,
+                            "m_EntityName": "tree_01 (10)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 30
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 2230.350830078125,
+                                "m_Y": 8.580600115237758e-05,
+                                "m_Z": -10.795248031616211
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -11.300000190734863,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 3.0,
+                                "m_Y": 3.0,
+                                "m_Z": 3.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/Tree.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Empty Entity (9)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 36,
+                            "m_EntityName": "Empty Entity (9)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 35
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": -3.329306491650641e-05,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/treeleaf.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tree_01 (12)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 37,
+                            "m_EntityName": "tree_01 (12)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 30
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 3391.01025390625,
+                                "m_Y": 0.00010281855793436989,
+                                "m_Z": 1178.56689453125
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 2.0,
+                                "m_Y": 2.0,
+                                "m_Z": 2.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/Tree.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Empty Entity (10)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 38,
+                            "m_EntityName": "Empty Entity (10)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 37
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/treeleaf.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tree_01 (12) (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 39,
+                            "m_EntityName": "tree_01 (12) (1)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 30
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 981.9417724609375,
+                                "m_Y": 8.91602030606009e-05,
+                                "m_Z": 1841.758544921875
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 6.0,
+                                "m_Y": 6.0,
+                                "m_Z": 6.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/Tree.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Empty Entity (11)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 40,
+                            "m_EntityName": "Empty Entity (11)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 39
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": -1.4747627574251965e-05,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/treeleaf.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tree_01 (12) (5)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 41,
+                            "m_EntityName": "tree_01 (12) (5)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 30
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -243.44570922851563,
+                                "m_Y": 9.102210606215522e-05,
+                                "m_Z": 2223.89501953125
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 6.0,
+                                "m_Y": 6.0,
+                                "m_Z": 6.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/Tree.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Empty Entity (13)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 42,
+                            "m_EntityName": "Empty Entity (13)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 41
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": -1.7515880244900472e-05,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/treeleaf.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tree_01 (12) (10)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 43,
+                            "m_EntityName": "tree_01 (12) (10)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 30
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -3299.2412109375,
+                                "m_Y": 6.808384205214679e-05,
+                                "m_Z": 1400.00390625
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 3.0,
+                                "m_Y": 3.0,
+                                "m_Z": 3.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/Tree.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Empty Entity (16)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 44,
+                            "m_EntityName": "Empty Entity (16)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 43
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": -2.5843472030828707e-05,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/treeleaf.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tree_01 (12) (10) (5)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 45,
+                            "m_EntityName": "tree_01 (12) (10) (5)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 30
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 1896.3250732421875,
+                                "m_Y": -1.4145895875117276e-05,
+                                "m_Z": 257.53363037109375
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 4.0,
+                                "m_Y": 4.0,
+                                "m_Z": 4.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/Tree.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Empty Entity (19)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 46,
+                            "m_EntityName": "Empty Entity (19)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 45
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 1.615853761904873e-08,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/treeleaf.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tree_01 (12) (10) (9)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 47,
+                            "m_EntityName": "tree_01 (12) (10) (9)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 30
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -2106.510498046875,
+                                "m_Y": 8.366698602912948e-05,
+                                "m_Z": 148.29026794433594
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 2.5,
+                                "m_Y": 2.5,
+                                "m_Z": 2.5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/Tree.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Empty Entity (21)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 48,
+                            "m_EntityName": "Empty Entity (21)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 47
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": -3.909607039531693e-05,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/treeleaf.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tree_01 (12) (10) (10)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 49,
+                            "m_EntityName": "tree_01 (12) (10) (10)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 30
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -1346.4100341796875,
+                                "m_Y": 8.394931501243263e-05,
+                                "m_Z": 109.56121826171875
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 2.5,
+                                "m_Y": 2.5,
+                                "m_Z": 2.5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/Tree.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Empty Entity (22)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 50,
+                            "m_EntityName": "Empty Entity (22)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 49
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": -3.920900053344667e-05,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": -0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/treeleaf.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "tree_01 (12) (10) (11)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 51,
+                            "m_EntityName": "tree_01 (12) (10) (11)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 30
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -2174.35009765625,
+                                "m_Y": 247.37620544433594,
+                                "m_Z": 1001.0792236328125
+                            },
+                            "m_Rotation": {
+                                "m_X": -7.199999809265137,
+                                "m_Y": -0.0,
+                                "m_Z": -4.5
+                            },
+                            "m_Scale": {
+                                "m_X": 4.0,
+                                "m_Y": 4.0,
+                                "m_Z": 2.5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/Tree.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Empty Entity (23)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 52,
+                            "m_EntityName": "Empty Entity (23)",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 51
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 7.199997425079346,
+                                "m_Y": 1.0245282311416304e-07,
+                                "m_Z": 4.499999523162842
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/treeleaf.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "GameStartSprtie": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 53,
+                            "m_EntityName": "GameStartSprtie",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/title_text_01.png",
+                            "m_IsRendered": true,
+                            "m_Layer": 0.20000000298023224,
+                            "m_Position": [
+                                609,
+                                844
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "IntroButtonScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EndingCreditButton": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 54,
+                            "m_EntityName": "EndingCreditButton",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/title_btn_developer.png",
+                            "m_IsRendered": true,
+                            "m_Layer": 0.20000000298023224,
+                            "m_Position": [
+                                1800,
+                                863
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "m_ComponentName": "UI",
+                            "m_Size": [
+                                59,
+                                70
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "IntroButtonScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ExitButton": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 55,
+                            "m_EntityName": "ExitButton",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/title_btn_end.png",
+                            "m_IsRendered": true,
+                            "m_Layer": 0.20000000298023224,
+                            "m_Position": [
+                                1800,
+                                951
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "m_ComponentName": "UI",
+                            "m_Size": [
+                                59,
+                                70
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "IntroButtonScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EndingCreditSprite": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 56,
+                            "m_EntityName": "EndingCreditSprite",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/credit.png",
+                            "m_IsRendered": false,
+                            "m_Layer": 0.10000000149011612,
+                            "m_Position": [
+                                0,
+                                0
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "IntroButtonScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "GameLogoSprite": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 57,
+                            "m_EntityName": "GameLogoSprite",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/dokkebi_FIN.png",
+                            "m_IsRendered": true,
+                            "m_Layer": 0.20000000298023224,
+                            "m_Position": [
+                                124,
+                                140
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "IntroButtonScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "EndingCreditCloseButton": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 58,
+                            "m_EntityName": "EndingCreditCloseButton",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/close_btn.png",
+                            "m_IsRendered": false,
+                            "m_Layer": 0.0,
+                            "m_Position": [
+                                1800,
+                                1000
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "m_ComponentName": "UI",
+                            "m_Size": [
+                                92,
+                                63
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "IntroButtonScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Ground": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 59,
+                            "m_EntityName": "Ground",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 31.7431640625,
+                                "m_Y": 0.0,
+                                "m_Z": -634.4398193359375
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 30.0,
+                                "m_Y": 30.0,
+                                "m_Z": 30.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/ground.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Empty Entity": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 60,
+                            "m_EntityName": "Empty Entity",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 3.94158935546875,
+                                "m_Y": 236.63601684570313,
+                                "m_Z": -69.23475646972656
+                            },
+                            "m_Rotation": {
+                                "m_X": 90.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 7.800000190734863,
+                                "m_Y": 10.0,
+                                "m_Z": 10.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/black_plane.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Empty Entity (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 61,
+                            "m_EntityName": "Empty Entity (1)",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -5.745790481567383,
+                                "m_Y": 259.2606201171875,
+                                "m_Z": -459.633056640625
+                            },
+                            "m_Rotation": {
+                                "m_X": 90.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 2.5999999046325684,
+                                "m_Y": 1.0,
+                                "m_Z": -3.700000047683716
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/black_plane.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Empty Entity (1) (1)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 62,
+                            "m_EntityName": "Empty Entity (1) (1)",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 256.41864013671875,
+                                "m_Y": 259.2606201171875,
+                                "m_Z": -270.49542236328125
+                            },
+                            "m_Rotation": {
+                                "m_X": 90.0,
+                                "m_Y": 0.0,
+                                "m_Z": 90.0
+                            },
+                            "m_Scale": {
+                                "m_X": 2.0,
+                                "m_Y": 1.0,
+                                "m_Z": -3.700000047683716
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/black_plane.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Empty Entity (1) (2)": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 63,
+                            "m_EntityName": "Empty Entity (1) (2)",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": -251.61093139648438,
+                                "m_Y": 259.2606201171875,
+                                "m_Z": -270.49542236328125
+                            },
+                            "m_Rotation": {
+                                "m_X": 90.0,
+                                "m_Y": 0.0,
+                                "m_Z": 90.0
+                            },
+                            "m_Scale": {
+                                "m_X": 2.0,
+                                "m_Y": 1.0,
+                                "m_Z": -3.700000047683716
+                            }
+                        }
+                    ]
+                },
+                {
+                    "StaticMesh": [
+                        {
+                            "m_ComponentName": "StaticMesh",
+                            "m_FileName": "fbx/black_plane.fbx",
+                            "m_IsModelCreated": true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

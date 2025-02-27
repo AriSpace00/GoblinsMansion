@@ -1,0 +1,1600 @@
+{
+    "WorldEntities": [
+        {
+            "Player": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 1,
+                            "m_EntityName": "Player",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "BoxCollider": [
+                        {
+                            "m_Center": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_ColliderType": 1,
+                            "m_CollisionType": 4,
+                            "m_ComponentName": "BoxCollider",
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Size": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Movement": [
+                        {
+                            "m_ComponentName": "Movement",
+                            "m_CurrentMoveState": 0,
+                            "m_CurrentRotation": [
+                                0,
+                                0
+                            ],
+                            "m_DirectionVector": {
+                                "m_X": -0.0,
+                                "m_Y": -0.0,
+                                "m_Z": -1.0
+                            },
+                            "m_RightVector": {
+                                "m_X": 1.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Sensitivity": 0.10000000149011612,
+                            "m_Speed": 100.0
+                        }
+                    ]
+                },
+                {
+                    "RigidBody": [
+                        {
+                            "m_ComponentName": "RigidBody",
+                            "m_DynamicFriction": 1.0,
+                            "m_FreezeLinear": [
+                                false,
+                                false,
+                                false
+                            ],
+                            "m_FreezeRotation": [
+                                false,
+                                false,
+                                false
+                            ],
+                            "m_Mass": 50.0,
+                            "m_MaxVellocity": 100.0,
+                            "m_Restitution": 0.0,
+                            "m_StaticFriction": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "PlayerCamera": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 2,
+                            "m_EntityName": "PlayerCamera",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 1
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Camera": [
+                        {
+                            "m_ComponentName": "Camera"
+                        }
+                    ]
+                },
+                {
+                    "Movement": [
+                        {
+                            "m_ComponentName": "Movement",
+                            "m_CurrentMoveState": 0,
+                            "m_CurrentRotation": [
+                                0,
+                                0
+                            ],
+                            "m_DirectionVector": {
+                                "m_X": -0.0,
+                                "m_Y": -0.0,
+                                "m_Z": -1.0
+                            },
+                            "m_RightVector": {
+                                "m_X": 1.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Sensitivity": 0.10000000149011612,
+                            "m_Speed": 100.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Main Camera": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 3,
+                            "m_EntityName": "Main Camera",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 10.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": -5.60006046295166,
+                                "m_Y": -67.79996490478516,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Camera": [
+                        {
+                            "m_ComponentName": "Camera"
+                        }
+                    ]
+                },
+                {
+                    "Movement": [
+                        {
+                            "m_ComponentName": "Movement",
+                            "m_CurrentMoveState": 0,
+                            "m_CurrentRotation": [
+                                0,
+                                0
+                            ],
+                            "m_DirectionVector": {
+                                "m_X": 0.9214515089988708,
+                                "m_Y": -0.09758395701646805,
+                                "m_Z": -0.3760380446910858
+                            },
+                            "m_RightVector": {
+                                "m_X": 0.37784138321876526,
+                                "m_Y": 0.0,
+                                "m_Z": 0.9258703589439392
+                            },
+                            "m_Sensitivity": 0.10000000149011612,
+                            "m_Speed": 100.0
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "FreeCameraScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ClueNoteSprite": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 4,
+                            "m_EntityName": "ClueNoteSprite",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/cluenote_image.png",
+                            "m_IsRendered": false,
+                            "m_Layer": 0.0,
+                            "m_Position": [
+                                255,
+                                78
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "m_ComponentName": "UI",
+                            "m_Size": [
+                                150,
+                                81
+                            ],
+                            "m_UIstate": 2
+                        }
+                    ]
+                },
+                {
+                    "Clue": [
+                        {
+                            "m_ComponentName": "Clue",
+                            "m_FilePath": "../Resource/UI/cluenote_image.png",
+                            "m_Index": 0,
+                            "m_Page": 0
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "ClueSpriteScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "FrontDoorSprite": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 5,
+                            "m_EntityName": "FrontDoorSprite",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/cluenote_btn_01.png",
+                            "m_IsRendered": false,
+                            "m_Layer": 0.10000000149011612,
+                            "m_Position": [
+                                135,
+                                190
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "m_ComponentName": "UI",
+                            "m_Size": [
+                                150,
+                                81
+                            ],
+                            "m_UIstate": 2
+                        }
+                    ]
+                },
+                {
+                    "Clue": [
+                        {
+                            "m_ComponentName": "Clue",
+                            "m_FilePath": "../Resource/UI/cluenote_btn_01.png",
+                            "m_Index": 0,
+                            "m_Page": 0
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "ClueSpriteScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "LivingRoomSprite": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 6,
+                            "m_EntityName": "LivingRoomSprite",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/cluenote_btn_02.png",
+                            "m_IsRendered": false,
+                            "m_Layer": 0.10000000149011612,
+                            "m_Position": [
+                                135,
+                                290
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "m_ComponentName": "UI",
+                            "m_Size": [
+                                150,
+                                81
+                            ],
+                            "m_UIstate": 2
+                        }
+                    ]
+                },
+                {
+                    "Clue": [
+                        {
+                            "m_ComponentName": "Clue",
+                            "m_FilePath": "../Resource/UI/cluenote_btn_02.png",
+                            "m_Index": 0,
+                            "m_Page": 0
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "ClueSpriteScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "BookRoomSprite": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 7,
+                            "m_EntityName": "BookRoomSprite",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/cluenote_btn_03.png",
+                            "m_IsRendered": false,
+                            "m_Layer": 0.10000000149011612,
+                            "m_Position": [
+                                135,
+                                390
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "m_ComponentName": "UI",
+                            "m_Size": [
+                                150,
+                                81
+                            ],
+                            "m_UIstate": 2
+                        }
+                    ]
+                },
+                {
+                    "Clue": [
+                        {
+                            "m_ComponentName": "Clue",
+                            "m_FilePath": "../Resource/UI/cluenote_click_btn_03.png",
+                            "m_Index": 0,
+                            "m_Page": 0
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "ClueSpriteScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "ItemStorageSprite": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 8,
+                            "m_EntityName": "ItemStorageSprite",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/cluenote_btn_04.png",
+                            "m_IsRendered": false,
+                            "m_Layer": 0.10000000149011612,
+                            "m_Position": [
+                                126,
+                                490
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "m_ComponentName": "UI",
+                            "m_Size": [
+                                150,
+                                113
+                            ],
+                            "m_UIstate": 2
+                        }
+                    ]
+                },
+                {
+                    "Clue": [
+                        {
+                            "m_ComponentName": "Clue",
+                            "m_FilePath": "../Resource/UI/cluenote_click_btn_04.png",
+                            "m_Index": 0,
+                            "m_Page": 0
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "ClueSpriteScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "LastRoomSprite": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 9,
+                            "m_EntityName": "LastRoomSprite",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/cluenote_btn_05.png",
+                            "m_IsRendered": false,
+                            "m_Layer": 0.10000000149011612,
+                            "m_Position": [
+                                135,
+                                623
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "m_ComponentName": "UI",
+                            "m_Size": [
+                                150,
+                                81
+                            ],
+                            "m_UIstate": 2
+                        }
+                    ]
+                },
+                {
+                    "Clue": [
+                        {
+                            "m_ComponentName": "Clue",
+                            "m_FilePath": "../Resource/UI/cluenote_btn_05.png",
+                            "m_Index": 0,
+                            "m_Page": 0
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "ClueSpriteScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "DoorFirstClueSprite": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 10,
+                            "m_EntityName": "DoorFirstClueSprite",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/door_clue_text_image_01.png",
+                            "m_IsRendered": true,
+                            "m_Layer": 0.0,
+                            "m_Position": [
+                                370,
+                                200
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "m_ComponentName": "UI",
+                            "m_Size": [
+                                0,
+                                0
+                            ],
+                            "m_UIstate": 3
+                        }
+                    ]
+                },
+                {
+                    "Clue": [
+                        {
+                            "m_ComponentName": "Clue",
+                            "m_FilePath": "../Resource/UI/door_clue_text_image_01.png",
+                            "m_Index": 1,
+                            "m_Page": 1
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "ClueSpriteScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "DoorSecondClueSprite": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 11,
+                            "m_EntityName": "DoorSecondClueSprite",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/door_clue_text_image_02.png",
+                            "m_IsRendered": true,
+                            "m_Layer": 0.0,
+                            "m_Position": [
+                                630,
+                                200
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "m_ComponentName": "UI",
+                            "m_Size": [
+                                0,
+                                0
+                            ],
+                            "m_UIstate": 3
+                        }
+                    ]
+                },
+                {
+                    "Clue": [
+                        {
+                            "m_ComponentName": "Clue",
+                            "m_FilePath": "../Resource/UI/door_clue_text_image_02.png",
+                            "m_Index": 2,
+                            "m_Page": 1
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "ClueSpriteScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "DoorThirdClueSprite": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 12,
+                            "m_EntityName": "DoorThirdClueSprite",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/door_clue_text_image_03.png",
+                            "m_IsRendered": true,
+                            "m_Layer": 0.0,
+                            "m_Position": [
+                                1050,
+                                200
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "m_ComponentName": "UI",
+                            "m_Size": [
+                                0,
+                                0
+                            ],
+                            "m_UIstate": 3
+                        }
+                    ]
+                },
+                {
+                    "Clue": [
+                        {
+                            "m_ComponentName": "Clue",
+                            "m_FilePath": "../Resource/UI/door_clue_text_image_03.png",
+                            "m_Index": 3,
+                            "m_Page": 1
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "ClueSpriteScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "LivingRoomFirstClueSprite": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 13,
+                            "m_EntityName": "LivingRoomFirstClueSprite",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/livingroomclue_text_image_01.png",
+                            "m_IsRendered": false,
+                            "m_Layer": 0.0,
+                            "m_Position": [
+                                370,
+                                200
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "m_ComponentName": "UI",
+                            "m_Size": [
+                                0,
+                                0
+                            ],
+                            "m_UIstate": 3
+                        }
+                    ]
+                },
+                {
+                    "Clue": [
+                        {
+                            "m_ComponentName": "Clue",
+                            "m_FilePath": "../Resource/UI/livingroomclue_text_image_01.png",
+                            "m_Index": 1,
+                            "m_Page": 2
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "ClueSpriteScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "LibraryFirstClueSprite": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 14,
+                            "m_EntityName": "LibraryFirstClueSprite",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/libraryloom_clue_text_image_01.png",
+                            "m_IsRendered": false,
+                            "m_Layer": 0.0,
+                            "m_Position": [
+                                370,
+                                200
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "m_ComponentName": "UI",
+                            "m_Size": [
+                                0,
+                                0
+                            ],
+                            "m_UIstate": 3
+                        }
+                    ]
+                },
+                {
+                    "Clue": [
+                        {
+                            "m_ComponentName": "Clue",
+                            "m_FilePath": "../Resource/UI/libraryloom_clue_text_image_01.png",
+                            "m_Index": 1,
+                            "m_Page": 3
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "ClueSpriteScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "LibrarySecondClueSprite": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 15,
+                            "m_EntityName": "LibrarySecondClueSprite",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/libraryloom_clue_text_image_02.png",
+                            "m_IsRendered": false,
+                            "m_Layer": 0.0,
+                            "m_Position": [
+                                1050,
+                                200
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "m_ComponentName": "UI",
+                            "m_Size": [
+                                0,
+                                0
+                            ],
+                            "m_UIstate": 3
+                        }
+                    ]
+                },
+                {
+                    "Clue": [
+                        {
+                            "m_ComponentName": "Clue",
+                            "m_FilePath": "../Resource/UI/libraryloom_clue_text_image_02.png",
+                            "m_Index": 2,
+                            "m_Page": 3
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "ClueSpriteScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "DepositoryFirstClueSprite": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 16,
+                            "m_EntityName": "DepositoryFirstClueSprite",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/depository_clue_text_image_01.png",
+                            "m_IsRendered": false,
+                            "m_Layer": 0.0,
+                            "m_Position": [
+                                370,
+                                200
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "m_ComponentName": "UI",
+                            "m_Size": [
+                                0,
+                                0
+                            ],
+                            "m_UIstate": 3
+                        }
+                    ]
+                },
+                {
+                    "Clue": [
+                        {
+                            "m_ComponentName": "Clue",
+                            "m_FilePath": "../Resource/UI/depository_clue_text_image_01.png",
+                            "m_Index": 1,
+                            "m_Page": 4
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "ClueSpriteScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "DepositorySecondClueSprite": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 17,
+                            "m_EntityName": "DepositorySecondClueSprite",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/depository_clue_text_image_02.png",
+                            "m_IsRendered": false,
+                            "m_Layer": 0.0,
+                            "m_Position": [
+                                1050,
+                                200
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "m_ComponentName": "UI",
+                            "m_Size": [
+                                0,
+                                0
+                            ],
+                            "m_UIstate": 3
+                        }
+                    ]
+                },
+                {
+                    "Clue": [
+                        {
+                            "m_ComponentName": "Clue",
+                            "m_FilePath": "../Resource/UI/depository_clue_text_image_02.png",
+                            "m_Index": 2,
+                            "m_Page": 4
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "ClueSpriteScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "RedRoomFirstClueSprite": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 18,
+                            "m_EntityName": "RedRoomFirstClueSprite",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/redloom_clue_text_image_01.png",
+                            "m_IsRendered": false,
+                            "m_Layer": 0.0,
+                            "m_Position": [
+                                370,
+                                200
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "m_ComponentName": "UI",
+                            "m_Size": [
+                                0,
+                                0
+                            ],
+                            "m_UIstate": 3
+                        }
+                    ]
+                },
+                {
+                    "Clue": [
+                        {
+                            "m_ComponentName": "Clue",
+                            "m_FilePath": "../Resource/UI/redloom_clue_text_image_01.png",
+                            "m_Index": 1,
+                            "m_Page": 5
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "ClueSpriteScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "RedRoomSecondClueSprite": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 19,
+                            "m_EntityName": "RedRoomSecondClueSprite",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/redloom_clue_text_image_02.png",
+                            "m_IsRendered": false,
+                            "m_Layer": 0.0,
+                            "m_Position": [
+                                1050,
+                                200
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "UI": [
+                        {
+                            "m_ComponentName": "UI",
+                            "m_Size": [
+                                0,
+                                0
+                            ],
+                            "m_UIstate": 3
+                        }
+                    ]
+                },
+                {
+                    "Clue": [
+                        {
+                            "m_ComponentName": "Clue",
+                            "m_FilePath": "../Resource/UI/redloom_clue_text_image_02.png",
+                            "m_Index": 2,
+                            "m_Page": 5
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

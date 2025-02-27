@@ -1,0 +1,380 @@
+{
+    "WorldEntities": [
+        {
+            "Player": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 1,
+                            "m_EntityName": "Player",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "BoxCollider": [
+                        {
+                            "m_Center": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_ColliderType": 1,
+                            "m_CollisionType": 4,
+                            "m_ComponentName": "BoxCollider",
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Size": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Movement": [
+                        {
+                            "m_ComponentName": "Movement",
+                            "m_CurrentMoveState": 0,
+                            "m_CurrentRotation": [
+                                0,
+                                0
+                            ],
+                            "m_DirectionVector": {
+                                "m_X": -0.0,
+                                "m_Y": -0.0,
+                                "m_Z": -1.0
+                            },
+                            "m_RightVector": {
+                                "m_X": 1.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Sensitivity": 0.10000000149011612,
+                            "m_Speed": 100.0
+                        }
+                    ]
+                },
+                {
+                    "RigidBody": [
+                        {
+                            "m_ComponentName": "RigidBody",
+                            "m_DynamicFriction": 1.0,
+                            "m_FreezeLinear": [
+                                false,
+                                false,
+                                false
+                            ],
+                            "m_FreezeRotation": [
+                                false,
+                                false,
+                                false
+                            ],
+                            "m_Mass": 50.0,
+                            "m_MaxVellocity": 100.0,
+                            "m_Restitution": 0.0,
+                            "m_StaticFriction": 1.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "PlayerCamera": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 2,
+                            "m_EntityName": "PlayerCamera",
+                            "m_HasParent": true,
+                            "m_ParentEntityId": 1
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Camera": [
+                        {
+                            "m_ComponentName": "Camera"
+                        }
+                    ]
+                },
+                {
+                    "Movement": [
+                        {
+                            "m_ComponentName": "Movement",
+                            "m_CurrentMoveState": 0,
+                            "m_CurrentRotation": [
+                                0,
+                                0
+                            ],
+                            "m_DirectionVector": {
+                                "m_X": -0.0,
+                                "m_Y": -0.0,
+                                "m_Z": -1.0
+                            },
+                            "m_RightVector": {
+                                "m_X": 1.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Sensitivity": 0.10000000149011612,
+                            "m_Speed": 100.0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "Main Camera": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 3,
+                            "m_EntityName": "Main Camera",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 10.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": -0.10000000149011612,
+                                "m_Y": 0.20000000298023224,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Camera": [
+                        {
+                            "m_ComponentName": "Camera"
+                        }
+                    ]
+                },
+                {
+                    "Movement": [
+                        {
+                            "m_ComponentName": "Movement",
+                            "m_CurrentMoveState": 0,
+                            "m_CurrentRotation": [
+                                0,
+                                0
+                            ],
+                            "m_DirectionVector": {
+                                "m_X": -0.0034906461369246244,
+                                "m_Y": -0.0017453283071517944,
+                                "m_Z": -0.9999923706054688
+                            },
+                            "m_RightVector": {
+                                "m_X": 0.9999939203262329,
+                                "m_Y": -2.2737367544323206e-13,
+                                "m_Z": -0.003490651259198785
+                            },
+                            "m_Sensitivity": 0.10000000149011612,
+                            "m_Speed": 100.0
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "FreeCameraScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "bakcground": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 4,
+                            "m_EntityName": "bakcground",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/cutscene_background.png",
+                            "m_IsRendered": true,
+                            "m_Layer": 0.10000000149011612,
+                            "m_Position": [
+                                0,
+                                0
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "cutscene": [
+                {
+                    "EntityIdentifier": [
+                        {
+                            "m_ComponentName": "EntityIdentifier",
+                            "m_EntityId": 5,
+                            "m_EntityName": "cutscene",
+                            "m_HasParent": false,
+                            "m_ParentEntityId": 0
+                        }
+                    ]
+                },
+                {
+                    "Transform": [
+                        {
+                            "m_ComponentName": "Transform",
+                            "m_FreezeRotationX": false,
+                            "m_FreezeRotationY": false,
+                            "m_FreezeRotationZ": false,
+                            "m_Position": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Rotation": {
+                                "m_X": 0.0,
+                                "m_Y": 0.0,
+                                "m_Z": 0.0
+                            },
+                            "m_Scale": {
+                                "m_X": 1.0,
+                                "m_Y": 1.0,
+                                "m_Z": 1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "Sprite2D": [
+                        {
+                            "m_ComponentName": "Sprite2D",
+                            "m_FileName": "../Resource/UI/cutscene_long.jpg",
+                            "m_IsRendered": true,
+                            "m_Layer": 0.0,
+                            "m_Position": [
+                                0,
+                                20
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Script": [
+                        {
+                            "m_ComponentName": "OutroScript",
+                            "m_IsFreeCamera": false
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

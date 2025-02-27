@@ -1,0 +1,2 @@
+xiequ_yuan_4kEnvHDR.dds filter=lfs diff=lfs merge=lfs -text
+xiequ_yuan_4kSpecularHDR.dds filter=lfs diff=lfs merge=lfs -text
