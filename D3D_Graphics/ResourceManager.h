@@ -17,7 +17,7 @@ public:
     void CreateEnvironment(string filename);
 
     std::map<std::string, shared_ptr<Model>> m_pOriginalModels;
-    std::map<std::string, shared_ptr<Environment>>m_pOriginalEnvironments;
+    std::map<std::string, shared_ptr<Environment>> m_pOriginalEnvironments;
 
 public:
     std::map<std::string, std::weak_ptr<StaticSceneResource>> m_staticMeshMap;

@@ -473,6 +473,7 @@ void Renderer::ApplyMaterial(Material* pMaterial)
 
 	if (pMaterial->m_pRoughnessRV)
 		m_pDeviceContext->PSSetShaderResources(6, 1, pMaterial->m_pRoughnessRV->m_pTextureRV.GetAddressOf());
+
 	if (pMaterial->m_pAmbientOcclusionRV)
 		m_pDeviceContext->PSSetShaderResources(12, 1, pMaterial->m_pAmbientOcclusionRV->m_pTextureRV.GetAddressOf());
 }
@@ -839,7 +840,9 @@ void Renderer::RenderText() const
 			Renderer::Instance->ChangeFont(m_dynamicTexts[i].mFontIndex, pos, text, m_dynamicTexts[i].mTextIndex + 1, currentTextSize);
 		}
 	}
-	string Memory;
+
+	// Debug Print : Video Memory, System Memory, FPS, Mouse Pos 
+	/*string Memory;
 	GetVideoMemoryInfo(Memory);
 	const wchar_t* videoMemory = ConvertToWchar(Memory);
 	m_shillaFont->DrawString(m_spriteBatch.get(), videoMemory, DirectX::XMFLOAT2(0.f, 0.f), DirectX::Colors::White, 0.f, DirectX::XMFLOAT2(0.f, 0.f), 0.7f);
@@ -858,7 +861,7 @@ void Renderer::RenderText() const
 
 	std::string mousePos = "Mouse Position x : " + std::to_string(InputManager::GetInstance()->GetMousePos().x) + " y : " + std::to_string(InputManager::GetInstance()->GetMousePos().y);
 	const wchar_t* wMousePos = ConvertToWchar(mousePos);
-	m_shillaFont->DrawString(m_spriteBatch.get(), wMousePos, XMFLOAT2(0.f, 60.f), Colors::White, 0.f, XMFLOAT2(0.f, 0.f), 0.7f);
+	m_shillaFont->DrawString(m_spriteBatch.get(), wMousePos, XMFLOAT2(0.f, 60.f), Colors::White, 0.f, XMFLOAT2(0.f, 0.f), 0.7f);*/
 }
 
 void Renderer::RenderSprite() const

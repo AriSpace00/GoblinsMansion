@@ -18,7 +18,7 @@ ResourceManager::~ResourceManager()
 {
 }
 
-void ResourceManager::CreateModel(string fileName,DirectX::BoundingBox& boundingBox)
+void ResourceManager::CreateModel(string fileName, DirectX::BoundingBox& boundingBox)
 {
     auto it = m_pOriginalModels.find(fileName);
     if (it != m_pOriginalModels.end())

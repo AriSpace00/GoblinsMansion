@@ -58,7 +58,7 @@ public:
 
 public:
 	std::wstring m_fileName;
-	std::vector<StaticMeshResource>m_meshes;
+	std::vector<StaticMeshResource> m_meshes;
 	std::vector<Material> m_materials;
 
 	Math::Matrix m_localMatrix;

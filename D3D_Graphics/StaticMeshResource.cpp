@@ -30,21 +30,17 @@ void StaticSceneResource::Create(const std::string& path)
 	const aiScene* scene = importer.ReadFile(path, importFlags);
 	Math::Matrix localTM = Math::Matrix(&scene->mRootNode->mTransformation.a1).Transpose();
 
-	aiNode* a=*scene->mRootNode->mChildren;
 	// Mesh, Material Á¤º¸ Create
 	m_meshes.resize(scene->mNumMeshes);
-	CreateFromNode(scene->mRootNode,scene);
-	scene->mRootNode->mTransformation;
-	/*for (unsigned int i = 0; i < scene->mNumMeshes; i++)
-	{
-		m_meshes[i].Create(Renderer::Instance->m_pDevice.Get(), scene->mMeshes[i]);
-	}*/
+	CreateFromNode(scene->mRootNode, scene);
+
 	m_materials.resize(scene->mNumMaterials);
 	for (unsigned int i = 0; i < scene->mNumMaterials; ++i)
 	{
 		m_materials[i].SetFileName(m_fileName);
 		m_materials[i].Create(scene->mMaterials[i]);
 	}
+
 	m_AABBmin = Math::Vector3(FLT_MAX, FLT_MAX, FLT_MAX);
 	m_AABBmax = Math::Vector3(-FLT_MAX, -FLT_MAX, -FLT_MAX);
 	
@@ -84,7 +80,6 @@ void StaticSceneResource::CreateFromNode(aiNode* node, const aiScene* scene)
 	{
 		CreateFromNode(node->mChildren[j], scene);
 	}
-	
 }
 
 void StaticSceneResource::CreateEnvironment(const std::string& path)
